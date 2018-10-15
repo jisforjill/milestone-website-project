@@ -1,0 +1,182 @@
+/*****BASE STYLES*****/
+
+body {
+    font-family: 'Muli', sans-serif;
+    font-family: 'Ovo', serif;
+    font-family: 'Kaushan Script', cursive;
+}
+
+/*****HEADER*****/
+
+header {
+    background: url('../img/jack-b-772336-unsplash.jpg');
+    background-size: cover;
+    height: 800px;
+}
+
+header h1 {
+    font-family:'Ovo';
+    font-size: 78px;
+    padding: 10px 0px 0px 100px;
+
+}
+
+header h2 {
+    font-family: 'Muli';
+    font-size: 32px;
+    padding: 0px 0px 75px 95px;
+}
+
+/*****GRID*****/
+
+.full-width { 
+    float: left;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width { 
+    float: left;
+    width: 400px;
+}
+
+.fourth-width {
+    float: left;
+    width: 100px;
+}
+
+nav {
+    float: right;
+    padding: 20px 0;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    color: black;
+    font-family: "Muli";
+    font-size: 18px;
+    padding-left: 75px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+/*****WORK*****/
+
+#work {
+    background-color: #6ebacf;
+    height: 1550px;
+}
+
+#work .full-width {
+   padding-left: 125px;
+}
+
+#work img {
+    padding-left: 325px;
+}
+
+#work h2 {
+    color: #f7fcfc;
+    font-family: "Ovo";
+    font-size: 48px;
+    text-align: center;
+}
+
+#work h3 {
+    color: #f7fcfc;
+    font-family: "Muli";
+    padding-left: 325px;
+}
+
+#work h4 {
+    color: #f7fcfc;
+    font-family: "Muli";
+    padding-left: 325px;
+}
+
+/*****ABOUT*****/
+
+#about {
+    background-color: #e2aea7;
+    height: 650px;
+}
+
+#about .full-width {
+    padding-left: 150px;
+}
+
+#about h2 {
+    color: #f7fcfc;
+    font-family: "Ovo";
+    font-size: 48px;
+    text-align: center;
+}
+
+#about img#headshot-img {
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+#about p {
+    color: #f7fcfc;
+    font-family: "Muli";
+    font-size: 28px;
+    line-height: 44px;
+    padding-top: 35px;
+    width: 400px;
+}
+
+/*****CONTACT*****/
+
+#contact {
+    background-color: #732650;
+    height: 450px;
+}
+
+#contact .full-width {
+    padding-left: 100px;
+}
+
+#contact .third-width {
+    padding-bottom: 75px;
+}
+
+#contact h2 {
+    color: #f7fcfc;
+    font-family: 'Ovo';
+    font-size: 48px;
+    text-align: center;
+}
+
+#contact h3 {
+    color: #f7fcfc;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 28px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+#contact h4 {
+    color: #f7fcfc;
+    font-family: "Ovo";
+    font-size: 24px;
+    text-align: center;
+}
+
+#contact h5 {
+    color: #f7fcfc;
+    font-family: "Ovo";
+    font-size: 12px;
+    text-align: center;
+}
+
+#contact img {
+    padding-left: 70px;
+}
